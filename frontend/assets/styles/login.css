@@ -1,0 +1,6 @@
+.error{
+  color: red;
+  display: none;
+  align-self: center;
+  margin: 10px;
+}
