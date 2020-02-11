@@ -11,20 +11,24 @@
 <body>
   <div class="scroll">
     <div class="wrapper">
+      <!-- header -->
       <h2> Sample Todo Application </h2>
       <div class="horizontal-rule"></div>
       <form action="" class="login-form">
+        <!-- username field -->
         <div class="form-wrapper">
           <label for="username"> Username </label>
           <input type="text" name="username" id="username" class="textfield" placeholder="Input username here">
         </div>
+        <!-- password field -->
         <div class="form-wrapper">
           <label for="password"> Password </label>
           <input type="password" name="pass" id="pass" class="textfield" placeholder="Input password here">
         </div>
         <div class="button-wrapper">
+          <!-- submit button -->
           <button type="submit" class="submit-button"> Login </button>
-          <a href="#"> Create User </a>
+          <a href="./create-user.php"> Create User </a>
         </div>
       </form>
     </div>

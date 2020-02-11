@@ -1,8 +1,10 @@
+/* set page font style and font size */
 body{
   font-family: Arial, Helvetica, sans-serif !important;
   font-size: 16px;
 }
 
+/* set page height and display mode */
 .scroll{
   height: 97vh;
   display: flex;
@@ -10,11 +12,12 @@ body{
   align-items: center;
 }
 
+/* set login form wrapper */
 .wrapper{
   width: 50%;
   align-self: center;
   border: solid 5px rgb(78,78,78);
-  border-radius: 10px;
+  border-radius: 10px; /* smoothen borders */
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
